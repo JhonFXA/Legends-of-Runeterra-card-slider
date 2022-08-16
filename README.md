@@ -6,4 +6,4 @@
 Esse é um projeto que desenvolvi durante o **#MAPADEV WEEK** do <a href="https://youtube.com/Dev em Dobro" target="_blank">**Dev em Dobro**</a>. O evento consistia em desenvolver um projeto de card slider com algum tema de sua escolha.
 <br>
 Eu decidi escolher o tema do jogo Legends of Runeterra, da Riot Games.<br>
-<a href="https://jhonfxa.github.io/legends-of-runeterra/" target="_blank">Clique aqui para testar o site</a>
+<a href="https://jhonfxa.github.io/Legends-of-Runeterra-card-slider/" target="_blank">Clique aqui para testar o site</a>
