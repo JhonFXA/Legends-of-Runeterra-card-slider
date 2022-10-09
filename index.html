@@ -16,10 +16,24 @@
 
     <header>
       <img class="logo" src="src/images/logo.png" alt="Legends of Runeterra" >
+      
+      <div class="social-links">
+        <ul>
+          <li>
+            <a href="https://www.youtube.com/JhonFX" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+          </li>
+          <li>a
+            <a href="https://www.github.com/JhonFXA" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+          </li>
+          <li>
+            <a href="jhonfx#3209" target="_blank"><ion-icon name="logo-discord"></ion-icon></a>
+          </li>
+        </ul>
+      </div>
     </header>
 
     <main>
-      <button id="return" class="btn-seta btn-back">
+      <button id="return" title="Back" class="btn-seta btn-back">
         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   height="30px" viewBox="0 0 434.002 434.002" style="enable-background:new 0 0 434.002 434.002;"
         xml:space="preserve">
@@ -32,12 +46,11 @@
      </svg>
       </button>
 
-      <ul class="card-list">
 
+      <ul class="card-list">        
+        <!-- ====================================== Akali ============================================ -->
+        
         <li class="card  selected">
-
-          <!-- ====================================== Akali ============================================ -->
-
             <img class="card-img" src="src/images/akali-card.png" alt="Akali">
             
             <div class="description">
@@ -80,9 +93,26 @@
               </p>
             </div>
           </li>
-      </ul>
+          <!-- ====================================== Yone ============================================ -->
+          <li class="card">
+            <img class="card-img" src="src/images/yone-card.webp" alt="Yone">
+            <div class="description">
+              <p class="text">
+                In life, he was half-brother of Yasuo, and renowned student of his village's sword school. But upon his death at the hands of his brother, he found himself hunted by a malevolent entity of the spirit realm, and was forced to slay it with its own sword. Now, cursed to wear its demonic mask upon his face, Yone tirelessly hunts all such creatures in order to understand what he has become.
+              </p>
+            </div>
+          </li>
 
-      <button id="advance" class="btn-seta">
+          
+        </ul>
+        
+        <div title="Play" class="audio-box">
+          <button onclick="audioPlay()" class="audio-btn">
+            <ion-icon name="volume-medium-outline"></ion-icon>
+          </button>
+        </div>
+
+      <button title="Next" id="advance" class="btn-seta">
     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
   height="30px" viewBox="0 0 434.002 434.002" style="enable-background:new 0 0 434.002 434.002;"
         xml:space="preserve">
@@ -94,8 +124,18 @@
      </g>
      </svg>
       </button>
+
     </main>
     
+    <audio src="src/audio/akali-voice.ogg" id="akali-voice"></audio>
+    <audio src="src/audio/yasuo-voice.mp3" id="yasuo-voice"></audio>
+    <audio src="src/audio/irelia-voice.ogg" id="irelia-voice"></audio>
+    <audio src="src/audio/draven-voice.ogg" id="draven-voice"></audio>
+    <audio src="src/audio/riven-voice.ogg" id="riven-voice"></audio>
+    <audio src="src/audio/yone-voice.mp3" id="yone-voice" ></audio>
+    
     <script src="src/js/index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
